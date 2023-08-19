@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baper bank</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <header>
+        <h1 class="text-5xl text-center my-8">Let's get some <span
+                class="text-blue-500 font-bold text-5xl">Mooooooney!!!</span></h1>
+    </header>
+    <main>
+        <section class="lg:pl-12">
+            <div class="grid lg:grid-cols-3 gap-4 w-9/12 mx-auto text-white">
+                <div class="bg-green-400 p-8 rounded-xl">
+                    <h1 class="text-2xl">Deposit</h1>
+                    <h2 class="text-5xl">$<span id="deposit-header">00</span></h2>
+                </div>
+                <div class="bg-yellow-400  p-8 rounded-xl">
+                    <h1 class="text-2xl">Withdraw</h1>
+                    <h2 class="text-5xl">$<span id="withdraw-balance">00</span></h2>
+                </div>
+                <div class="bg-pink-400 p-8 rounded-xl">
+                    <h1 class="text-2xl">Balance</h1>
+                    <h2 class="text-5xl">$<span id="balance-id">1240</span></h2>
+                </div>
+            </div>
+        </section>
+        <section class="lg:pl-12">
+            <div class="grid grid-rows-2 lg:grid-cols-2 mt-10 gap-4 w-9/12 mx-auto">
+                <div class="bg-sky-400 p-8 rounded-xl">
+                    <h1 class="text-2xl text-white">please Deposit</h1>
+                    <input id="deposit-id" placeholder="your Amount" type="text"
+                        class="w-9/12 rounded-md px-3 py-2 my-5 block">
+                    <button id="btn-papa-id"
+                        class="bg-sky-600 hover:bg-sky-400 px-4 my-4 rounded-lg py-2 text-white">Submit</button>
+                </div>
+                <div class="bg-red-400  p-8 rounded-xl">
+                    <h1 class="text-2xl text-white">please Withdraw</h1>
+                    <input id="withdraw-id" placeholder="your Amount" type="text"
+                        class="w-9/12 px-3 rounded-md py-2 my-5 block">
+                    <button id="btn-id-bank"
+                        class="bg-red-500 hover:bg-red-400 px-4 my-4 rounded-lg py-2 text-white">Submit</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="practic.js"></script>
+    <script src="extra.js"></script>
+</body>
+
+</html>
